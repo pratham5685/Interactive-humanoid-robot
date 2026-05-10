@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Control</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>Humanoid Robot Control</h1>
+
+<div class="controls">
+
+    <button onclick="sendCommand('forward')">Forward</button>
+
+    <button onclick="sendCommand('backward')">Backward</button>
+
+    <button onclick="sendCommand('left')">Left</button>
+
+    <button onclick="sendCommand('right')">Right</button>
+
+    <button onclick="sendCommand('stop')">Stop</button>
+
+</div>
+
+<div class="voice">
+
+    <button onclick="startVoice()">🎤 Voice Command</button>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
