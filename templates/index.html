@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Robot Control</title>
+
+    <title>Interactive Humanoid Robot</title>
+
     <link rel="stylesheet" href="/static/style.css">
+
 </head>
 
 <body>
 
-<h1>Humanoid Robot Control</h1>
+    <h1>Interactive Humanoid Robot</h1>
 
-<div class="controls">
+    <div class="controls">
 
-    <button onclick="sendCommand('forward')">Forward</button>
+        <button onclick="sendCommand('forward')">
+            FORWARD
+        </button>
 
-    <button onclick="sendCommand('backward')">Backward</button>
+        <button onclick="sendCommand('backward')">
+            BACKWARD
+        </button>
 
-    <button onclick="sendCommand('left')">Left</button>
+        <button onclick="sendCommand('left')">
+            LEFT
+        </button>
 
-    <button onclick="sendCommand('right')">Right</button>
+        <button onclick="sendCommand('right')">
+            RIGHT
+        </button>
 
-    <button onclick="sendCommand('stop')">Stop</button>
+        <button onclick="sendCommand('stop')">
+            STOP
+        </button>
 
-</div>
+    </div>
 
-<div class="voice">
+    <div class="voice">
 
-    <button onclick="startVoice()">🎤 Voice Command</button>
+        <button onclick="startVoice()">
+            🎤 VOICE COMMAND
+        </button>
 
-</div>
+    </div>
 
-<script src="/static/script.js"></script>
+    <script src="/static/script.js"></script>
 
 </body>
+
 </html>
