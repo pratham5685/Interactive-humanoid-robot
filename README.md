@@ -1,7 +1,7 @@
 # Interactive Humanoid Robot
 
+![Block Diagram](diagrams/v2.png)
 ![Block Diagram](diagrams/v1.png)
-
 An embedded robotics project demonstrating WiFi-based humanoid robot control using Raspberry Pi, Flask, and browser-based voice interaction.
 
 ---
