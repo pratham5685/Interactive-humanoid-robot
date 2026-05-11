@@ -112,7 +112,7 @@ GPIO Motor Control
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/interactive-humanoid-robot.git
+git clone https://github.com/pratham5685/interactive-humanoid-robot.git
 ```
 
 Install dependencies:
